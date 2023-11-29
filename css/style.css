@@ -1,0 +1,251 @@
+/* Start Main Style */
+
+:root {
+    --mainColor: #006599;
+    --secondaryColor: #2790c6;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+button {
+    border: 0;
+    padding: 20px 50px;
+    transition: all .5s ease;
+    background-color: var(--mainColor);
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: var(--secondaryColor);
+}
+
+h2 {
+    color: var(--mainColor);
+    font-weight: 500;
+    font-size: 35px;
+    margin: 50px 0 30px;
+}
+
+p {
+    color: #727c82;
+    line-height: 2;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* End Main Style */
+
+/* Start Navbar Style */
+
+#nav {
+    width: 30%;
+    height: 100vh;
+    background-color: var(--mainColor);
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: #fff;
+}
+
+#nav ul {
+    margin-top: 70px;
+}
+
+#nav ul li {
+    cursor: pointer;
+}
+
+#nav ul li a {
+    font-size: 20px;
+    font-weight: 400;
+    transition: all .5s ease;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+#nav ul li a:hover {
+    color: #f4ef5e;
+}
+
+/* End Navbar Style */
+
+/* Start Banner Style */
+
+#banner {
+    width: 70%;
+    overflow: hidden;
+}
+
+#banner img {
+    width: 100%;
+}
+
+/* End Banner Style */
+
+/* Start Welcome Style */
+
+#welcome .container h2 {
+    font-size: 3rem;
+    margin: 50px 0;
+}
+
+/* End Welcome Style */
+
+/* Start About Style */
+
+#about .container img {
+    width: 30%;
+    margin-top: 50px;
+}
+
+#about .container .content {
+    width: 65%;
+    margin-left: 5%;
+}
+
+#about .container .content p {
+    margin-bottom: 20px;
+}
+
+/* End About Style */
+
+/* Start Gallery One Style */
+
+#gallery-one .container img {
+    width: 18.2%;
+    margin-right: 20px;
+}
+
+#gallery-one .container img:last-of-type {
+    margin-right: 0;
+}
+
+/* End Gallery One Style */
+
+/* Start Gallery Two Style */
+
+#gallery-two .container img {
+    width: 31.8%;
+    margin-right: 20px;
+}
+
+#gallery-two .container img:last-of-type {
+    margin-right: 0;
+}
+
+/* End Gallery Two Style */
+
+/* Start Gallery Third Style */
+
+#gallery-third .container h2 {
+    font-size: 35px;
+    margin: 50px 0 30px;
+}
+
+#gallery-third .container img {
+    width: 23.3%;
+    margin-right: 20px;
+}
+
+#gallery-third .container img:last-of-type {
+    margin-right: 0;
+}
+
+/* End Gallery Third Style */
+
+/* Start Contact Us Style */
+
+#contact .container form {
+    width: 50%;
+    margin-right: 5%;
+}
+
+#contact .container form input,
+#contact .container form textarea {
+    border: 1px solid var(--mainColor);
+    display: block;
+    width: 100%;
+    padding: 15px 10px;
+    border-radius: 0;
+    margin-bottom: 12px;
+    outline: none;
+}
+
+#contact .container form input::placeholder,
+#contact .container form textarea::placeholder {
+    font-family: cursive;
+    text-transform: capitalize;
+    color: var(--mainColor);
+}
+
+#contact .container form input:focus,
+#contact .container form textarea:focus {
+    border-color: #66afe9;
+}
+
+#contact .container form textarea {
+    height: 300px;
+}
+
+#contact .container .content {
+    width: 45%;
+}
+
+#contact .container .content ul {
+    margin-top: 25px;
+}
+
+#contact .container .content ul li {
+    color: #727c82;
+    line-height: 2;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* End Contact Us Style */
+
+/* Start Footer Style */
+
+#footer {
+    padding: 70px 0 40px;
+}
+
+#footer p:first-of-type {
+    width: 70%;
+    margin-right: 5%;
+}
+
+#footer p:first-of-type span {
+    color: var(--mainColor);
+}
+
+#footer p:last-of-type {
+    width: 25%;
+}
+
+#footer p:last-of-type a {
+    color: var(--mainColor);
+    transition: all .5s ease;
+    margin-left: 5px;
+}
+
+/* End Footer Style */

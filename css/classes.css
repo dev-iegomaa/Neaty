@@ -1,0 +1,44 @@
+/* Start Main Classes */
+
+.p-5 {
+    padding: 50px 0;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+.clear {
+    clear: both;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.ml-3 {
+    margin-left: 30%;
+}
+
+/* End Main Classes */
